@@ -7,7 +7,7 @@
 			function myFunc() {
 			var 
 				sssend = document.getElementById('ssend').value;
-				result = 'Ваша ссылка: <a href="https://api.telegram.org/bot7438125944:AAFSoH6twja_5JXGbIIb-H8Tzh2lpn7JtZ0/sendMessage?chat_id=5642651631&parse_mode=html&text=' + sssend + '">' + 'АЛАЛА' + '</a>',
+				result = 'Ваша ссылка: <a href="https://api.telegram.org/bot7438125944:AAFSoH6twja_5JXGbIIb-H8Tzh2lpn7JtZ0/sendMessage?chat_id=5642651631&parse_mode=html&text=' + sssend + '">' + 'Отправить' + '</a>',
 				paragr = document.getElementsByTagName('p')[0];
 		
 		
@@ -18,9 +18,9 @@
 		</script>
 	</head>
 	<body>
-		<input type='text' class='form_send' id="ssend">
 		<p>Введи текст, чтобы получить ссылку</p>
-		<input value='text'>
+		
+		<input type='text' class='form_send' id="ssend">
 		<button onclick="myFunc()">Ввести</button>
 		
 		
