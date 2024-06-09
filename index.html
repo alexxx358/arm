@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Телеграм</title>
+		<script>
+			function myFunc() {
+			var 
+				sssend = document.getElementById('ssend').value;
+				result = 'Ваша ссылка: <a href="https://api.telegram.org/bot7438125944:AAFSoH6twja_5JXGbIIb-H8Tzh2lpn7JtZ0/sendMessage?chat_id=5642651631&parse_mode=html&text=' + sssend + '">' + 'АЛАЛА' + '</a>',
+				paragr = document.getElementsByTagName('p')[0];
+		
+		
+			console.log(sssend)
+			paragr.innerHTML = (result);
+		
+}
+		</script>
+	</head>
+	<body>
+		<input type='text' class='form_send' id="ssend">
+		<p>Введи текст, чтобы получить ссылку</p>
+		<input value='text'>
+		<button onclick="myFunc()">Ввести</button>
+		
+		
+	</body>
+		
+</html>
